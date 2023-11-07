@@ -98,4 +98,36 @@ public class Job {
     public int getId() {
         return id;
     }
+
+    //use lineSeparator in the Job class (???) TH
+
+    @Override
+    public String toString() {
+        //if empty put in data not available.....
+// use isEmpty
+        //for each parmater in job instance check if the parameter is empty
+
+
+        //if (job.getValue.isEmpty() )
+
+//        return System.lineSeparator() +           right one
+//                "ID: " + id + System.lineSeparator() +
+//                "Name: " + name + System.lineSeparator() +
+//                "Employer: " + employer.getValue() + System.lineSeparator() +
+//                "Location: " + location.getValue() + System.lineSeparator() +
+//                "Position Type: " + positionType.getValue() + System.lineSeparator() +
+//                "Core Competency: " + coreCompetency.getValue() + System.lineSeparator();
+
+        StringBuilder jobString = new StringBuilder();
+
+        jobString.append(System.lineSeparator() + "ID: " + id + System.lineSeparator());
+        jobString.append("Name: " + (name.isEmpty() ? "Data not available" : name) + System.lineSeparator());
+        jobString.append("Employer: " + (employer.getValue().isEmpty() ? "Data not available" : employer.getValue()) + System.lineSeparator());
+        jobString.append("Location: " + (location.getValue().isEmpty() ? "Data not available" : location.getValue()) + System.lineSeparator());
+        jobString.append("Position Type: " + (positionType.getValue().isEmpty() ? "Data not available" : positionType.getValue()) + System.lineSeparator());
+        jobString.append("Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency.getValue()) + System.lineSeparator());
+
+        return jobString.toString();
+    }
+
 }

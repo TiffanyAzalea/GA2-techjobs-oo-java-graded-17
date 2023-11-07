@@ -21,7 +21,7 @@ public class PositionType {
     // TODO: Add a custom toString() method that returns the data stored in 'value'.
     //TH
     public String toString() {
-        return value; //+ "does there need to be a concatenated string here???"
+        return value;
     }
 
     // TODO: Add custom equals and hashCode methods. Consider two PositionType objects "equal" when
