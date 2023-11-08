@@ -103,31 +103,26 @@ public class Job {
 
     @Override
     public String toString() {
-        //if empty put in data not available.....
-// use isEmpty
-        //for each parmater in job instance check if the parameter is empty
 
 
-        //if (job.getValue.isEmpty() )
 
-//        return System.lineSeparator() +           right one
-//                "ID: " + id + System.lineSeparator() +
-//                "Name: " + name + System.lineSeparator() +
-//                "Employer: " + employer.getValue() + System.lineSeparator() +
-//                "Location: " + location.getValue() + System.lineSeparator() +
-//                "Position Type: " + positionType.getValue() + System.lineSeparator() +
-//                "Core Competency: " + coreCompetency.getValue() + System.lineSeparator();
 
-        StringBuilder jobString = new StringBuilder();
+        String id = "ID: " + this.getId();
+        String name = "Name: " + (this.getName().isEmpty() ? "Data not available" : this.getName());
+        String employer = "Employer: " + (this.getEmployer().getValue().isEmpty() ? "Data not available" : this.employer.getValue());
+        String location = "Location: " + (this.getLocation().getValue().isEmpty() ? "Data not available" : this.location.getValue()) ;
+        String positionType = "Position Type: " + (this.getPositionType().getValue().isEmpty() ? "Data not available" : this.positionType.getValue());
+        String coreCompetency = "Core Competency: " + (this.getCoreCompetency().getValue().isEmpty() ? "Data not available" : this.coreCompetency.getValue());
 
-        jobString.append(System.lineSeparator() + "ID: " + id + System.lineSeparator());
-        jobString.append("Name: " + (name.isEmpty() ? "Data not available" : name) + System.lineSeparator());
-        jobString.append("Employer: " + (employer.getValue().isEmpty() ? "Data not available" : employer.getValue()) + System.lineSeparator());
-        jobString.append("Location: " + (location.getValue().isEmpty() ? "Data not available" : location.getValue()) + System.lineSeparator());
-        jobString.append("Position Type: " + (positionType.getValue().isEmpty() ? "Data not available" : positionType.getValue()) + System.lineSeparator());
-        jobString.append("Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency.getValue()) + System.lineSeparator());
+        return System.lineSeparator() +
+                id + System.lineSeparator() +
+                name + System.lineSeparator() +
+                employer + System.lineSeparator() +
+                location + System.lineSeparator() +
+                positionType + System.lineSeparator() +
+                coreCompetency + System.lineSeparator();
 
-        return jobString.toString();
+
     }
 
 }
