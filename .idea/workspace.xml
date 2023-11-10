@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="GA 2 Task 5 Completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" afterDir="false" />
+    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="GA 2 Task 6 and 7 Completed. Assignment Finished.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +43,7 @@
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
-  "associatedIndex": -1
+  "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2Qn6e2NCqVj233XTVZ3RW2TzDBN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -255,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699333563846</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="GA 2 Task 6 and 7 Completed. Assignment Finished.">
+      <option name="closed" value="true" />
+      <created>1699415193531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699415193531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,7 +265,8 @@
     <MESSAGE value="GA 2 Task 3 Completed" />
     <MESSAGE value="GA 2 Task 4 Completed" />
     <MESSAGE value="GA 2 Task 5 Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="GA 2 Task 5 Completed" />
+    <MESSAGE value="GA 2 Task 6 and 7 Completed. Assignment Finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="GA 2 Task 6 and 7 Completed. Assignment Finished." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

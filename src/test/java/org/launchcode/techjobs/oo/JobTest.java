@@ -23,15 +23,11 @@ public class JobTest {
     @Test
     public void testJobConstructorSetsAllFields() {
         Job jobData = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-//        assertTrue(jobData instanceof Job);
+
         assertEquals("Product tester", jobData.getName());
         assertEquals("ACME", jobData.getEmployer().getValue());
-//        assertEquals("ACME", jobData.getEmployer().getValue());
-//        assertTrue(jobData.getLocation() instanceof Location);
         assertEquals("Desert", jobData.getLocation().getValue());
-//        assertTrue(jobData.getPositionType() instanceof PositionType);
         assertEquals("Quality control", jobData.getPositionType().getValue());
-//        assertTrue(jobData.getCoreCompetency() instanceof CoreCompetency);
         assertEquals("Persistence", jobData.getCoreCompetency().getValue());
         System.out.println(jobData.getLocation().getValue());
     }
@@ -41,7 +37,7 @@ public class JobTest {
         Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
         Job job2 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
 
-        //Do I need to do something with ID???
+
         assertFalse(job1.equals(job2));
     }
 
@@ -58,7 +54,7 @@ public class JobTest {
                 "Location: Desert" + System.lineSeparator() +
                 "Position Type: Quality control" + System.lineSeparator() +
                 "Core Competency: Persistence" + System.lineSeparator();
-        // start and end with a new line???
+        // start and end with a new
         assertTrue(jobsString.startsWith(System.lineSeparator()));
         assertTrue(jobsString.endsWith(System.lineSeparator()));
 
